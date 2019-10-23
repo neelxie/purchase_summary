@@ -1,9 +1,30 @@
-.containe{
+card{
   margin-top: 10px;
+  background-color: aqua;  
 }
 .purchase-card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px, 20px, 0 rgba(0, 0, 0, 0.19);
   padding: 1em;
-  width: 450px;
+  width: 400px;
+  background-color: palegoldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
 }
-.purchase-card > .show-grid{}
+.purchase-card > .show-grid{
+  padding-bottom: 1.5em;
+}
+
+.price-strike{
+  
+}
+
+.item-details-button{
+  background-color: none;
+  color: aliceblue;
+  outline: none;
+}
+.item-details-button:focus{
+  outline: none;
+  color: transparent;
+}
