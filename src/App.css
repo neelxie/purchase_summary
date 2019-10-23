@@ -1,22 +1,30 @@
-.App {
-  text-align: center;
+card{
+  margin-top: 10px;
+  background-color: aqua;  
+}
+.purchase-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px, 20px, 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  width: 400px;
+  background-color: palegoldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+}
+.purchase-card > .show-grid{
+  padding-bottom: 1.5em;
 }
 
-.App-logo {
-  height: 40vmin;
+.price-strike{
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item-details-button{
+  background-color: none;
+  color: aliceblue;
+  outline: none;
 }
-
-.App-link {
-  color: #09d3ac;
+.item-details-button:focus{
+  outline: none;
+  color: transparent;
 }
