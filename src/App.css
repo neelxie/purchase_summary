@@ -9,14 +9,15 @@ card{
   background-color: palegoldenrod;
   margin-left: auto;
   margin-right: auto;
-  height: 50vh;
+  height: auto;
 }
 .purchase-card > .show-grid{
   padding-bottom: 1.5em;
 }
 
 .price-strike{
-  
+  text-decoration-line: line-through;
+  color: grey;
 }
 
 .item-details-button{
